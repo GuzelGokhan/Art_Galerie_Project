@@ -1,3 +1,3 @@
 class Artist < ApplicationRecord
-  has_many :artWorks
+  has_many :art_works
 end
