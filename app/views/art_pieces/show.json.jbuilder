@@ -1,0 +1,1 @@
+json.extract! @art_piece, :id, :name
