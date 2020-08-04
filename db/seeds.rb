@@ -6,4 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Artist.delete!
+  artist = Artist.create({ first_name: "Felix", last_name: "Frachon", country:"Belgium"})
+  5.times do |i|
+    artist.art_works.create({ name:"#{i} art"})
+  end
